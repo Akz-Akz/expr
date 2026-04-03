@@ -15,7 +15,7 @@ int main(){
 }
 int gd(int a)
 {
-    return a % 10 + (a/10 % 10);
+    return a % 20 + (a/20 % 20);
 }
 int Oadd(std::string cn)
 {
